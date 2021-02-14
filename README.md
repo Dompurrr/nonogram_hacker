@@ -1,14 +1,15 @@
 # nonogram_hacker
-Python app, that visually solves nonograms/griddlers.
-#Input and output
+Python app, that visually solves nonograms/griddlers. <br/>
+Other languages: [rus](README.ru.md)
+# Input and output
 All input data should be in the same folder with main.py program, in file, named "input.txt"
 and output data will be be in comand line and will be duplicated in the same folder, in file, named "output.txt"
 ## Input structure
-first line - size of field (n m), where n - quantity of lines, m - quantity of columns
-next n lines - numbers on the left side (for rows)
-next m lines - numbers on top (for columns)
-numbers for row/column are separated by space
-New row/column - new line in input file
+first line - size of field (n m), where n - quantity of lines, m - quantity of columns <br/>
+next n lines - numbers on the left side (for rows) <br/>
+next m lines - numbers on top (for columns) <br/>
+numbers for row/column are separated by space <br/>
+New row/column - new line in input file <br/>
 ### Example
 ```
 9 9
